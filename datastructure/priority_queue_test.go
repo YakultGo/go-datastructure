@@ -5,7 +5,7 @@ import (
 )
 
 func Test_hp(t *testing.T) {
-	h := &hp{}
+	h := NewPriorityQueue()
 	h.push(&node{value: 13})
 	h.push(&node{value: 1})
 	h.push(&node{value: 5})
