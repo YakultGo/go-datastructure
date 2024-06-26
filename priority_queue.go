@@ -16,4 +16,5 @@ func (h *hp) push(v *node)      { heap.Push(h, v) }
 func (h *hp) pop() *node        { return heap.Pop(h).(*node) }
 func (h *hp) top() *node        { return (*h)[0] }
 func (h *hp) empty() bool       { return len(*h) == 0 }
+func (h *hp) size() int         { return len(*h) }
 func NewPriorityQueue() *hp     { h := hp(make([]*node, 0)); heap.Init(&h); return &h }
