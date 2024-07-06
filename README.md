@@ -1,10 +1,10 @@
 [算法模板]
 ## 算法目录
 ### 数据结构
-- 优先队列(堆) priority_queue.go
-- 前缀树 trie.go
-- 树状数组 fenwickTree.go
-- 双端队列 deque.go
-- 并查集 dsu.go
-- ST表 rmq.go
+- [优先队列(堆)] (https://github.com/YakultGo/go-datastructure/blob/main/priority_queue.go)
+- [前缀树] (https://github.com/YakultGo/go-datastructure/blob/main/trie.go)
+- [树状数组] (https://github.com/YakultGo/go-datastructure/blob/main/fenwickTree.go)
+- [双端队列] (https://github.com/YakultGo/go-datastructure/blob/main/deque.go)
+- [并查集] (https://github.com/YakultGo/go-datastructure/blob/main/dsu.go)
+- [ST表](https://github.com/YakultGo/go-datastructure/blob/main/rmq.go)
 ### 数学
