@@ -3,7 +3,7 @@ package datastructure
 import "container/heap"
 
 type node struct {
-	value int
+    value int
 }
 type hp []*node
 
