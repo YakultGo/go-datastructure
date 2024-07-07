@@ -7,4 +7,8 @@
 - [双端队列](https://github.com/YakultGo/go-datastructure/blob/main/ds/deque.go)
 - [并查集](https://github.com/YakultGo/go-datastructure/blob/main/ds/dsu.go)
 - [ST表](https://github.com/YakultGo/go-datastructure/blob/main/ds/rmq.go)
+### 字符串
+- [KMP]()
+- [字符串哈希]()
+- [Z函数]()
 ### 数学
