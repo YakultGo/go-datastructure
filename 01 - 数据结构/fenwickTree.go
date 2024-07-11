@@ -1,4 +1,4 @@
-package datastructure
+
 
 type FenwickTree struct {
     tr []int

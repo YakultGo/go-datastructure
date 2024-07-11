@@ -1,7 +1,3 @@
-package datastructure
-
-import "runtime/debug"
-
 // 禁止GC，能够提高性能（参考灵神）
 func init() { debug.SetGCPercent(-1) }
 

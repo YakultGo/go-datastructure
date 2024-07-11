@@ -1,4 +1,3 @@
-package datastructure
 
 
 type Deque struct{ l, r []any }

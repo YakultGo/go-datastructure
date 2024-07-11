@@ -1,7 +1,3 @@
-package datastructure
-
-import "math/bits"
-
 type RMQ struct {
     n     int
     a     []int

@@ -1,7 +1,3 @@
-package datastructure
-
-import "container/heap"
-
 type node struct {
     value int
 }

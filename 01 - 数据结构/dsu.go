@@ -1,4 +1,3 @@
-package datastructure
 
 type Dsu struct {
     Fa     []int
