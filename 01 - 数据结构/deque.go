@@ -1,5 +1,3 @@
-
-
 type Deque struct{ l, r []any }
 
 func NewDeque() *Deque {
