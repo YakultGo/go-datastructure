@@ -1,4 +1,3 @@
-
 type Dsu struct {
 	Fa     []int
 	Size   []int
