@@ -20,7 +20,9 @@ func (ft *FenwickTree) query(x int) int {
 	}
 	return res
 }
-
+func (ft *FenwickTree) queryRange(l, r int) int {
+	return ft.query(r) - ft.query(l-1)
+}
 func NewFenwickTree(n int) *FenwickTree {
 	return &FenwickTree{tr: make([]int, n+10)}
 }
